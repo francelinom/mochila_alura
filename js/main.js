@@ -21,5 +21,7 @@ function criaElemento(nome, quantidade) {
 
   novoItem.innerHTML = numeroItem + nome;
 
+  novoItem.appendChild(numeroItem);
+
   console.log(novoItem);
 }
